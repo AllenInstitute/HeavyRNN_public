@@ -1,0 +1,9 @@
+jax
+jaxlib
+numpy
+matplotlib
+torch
+tqdm
+scipy
+keras
+tesnorflow
