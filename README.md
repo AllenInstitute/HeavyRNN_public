@@ -1,4 +1,4 @@
-# Slow Transition to Chaos in Recurrent Neural Networks with Heavy-Tailed Distributed Weights
+# Slow Transition to Low-Dimensional Chaos in Heavy-Tailed Recurrent Neural Networks
 
 ## Set up the environment
 Python versions >=3.10 and <3.13 are recommended. Note that `jax`, and `jaxlib` likely take the most time to install, so you may remove them from `requirements.txt` if you don't run Fig 1.
