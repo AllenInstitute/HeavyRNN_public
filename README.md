@@ -84,13 +84,12 @@ python3 run_figs/fig3bc_parallel.py plot --metric {PR or LD} --input_type {zeros
 
 ## Citation
 ```
-@misc{xie2025slowtransitionlowdimensionalchaos,
-      title={Slow Transition to Low-Dimensional Chaos in Heavy-Tailed Recurrent Neural Networks}, 
-      author={Yi Xie and Stefan Mihalas and Łukasz Kuśmierz},
-      year={2025},
-      eprint={2505.09816},
-      archivePrefix={arXiv},
-      primaryClass={q-bio.NC},
-      url={https://arxiv.org/abs/2505.09816}, 
+@inproceedings{
+xie2025slowtransitionlowdimensionalchaos,
+title={Slow Transition to Low-Dimensional Chaos in Heavy-Tailed Recurrent Neural Networks},
+author={Yi Xie and Stefan Mihalas and Łukasz Kuśmierz},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=J0SbYYY0po}
 }
 ```
