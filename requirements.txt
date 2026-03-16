@@ -6,4 +6,4 @@ torch
 tqdm
 scipy
 keras
-tesnorflow
+tensorflow
