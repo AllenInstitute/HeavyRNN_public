@@ -8,7 +8,8 @@ def oneStep(*params, model):
 
 def oneStepVarQR(J, Q):
     # Linear extrapolation of the network in many directions
-    Z = torch.matmul(torch.transpose(J, 1, 2), Q)
+    # Z = torch.matmul(torch.transpose(J, 1, 2), Q) # <- Prior to Jul 8, 2026
+    Z = torch.matmul(J, Q) # Should be equivalent to above asymptotically, this implementation would be more faithful to the Vogt et al.'s algorithm and be numerically more stable.
 
     # QR decomposition of new directions
     q, r = torch.linalg.qr(Z, "reduced")
